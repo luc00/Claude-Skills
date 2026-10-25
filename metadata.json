@@ -1,0 +1,6 @@
+{
+  "name": "Claude Skills Architect",
+  "description": "Trova e attiva le skill e gli MCP ideali per Claude AI in base al tuo progetto: scopri cosa fanno, perché usarle e genera la configurazione perfetta.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
