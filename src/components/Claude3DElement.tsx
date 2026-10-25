@@ -56,7 +56,7 @@ export const Claude3DElement: React.FC<Claude3DElementProps> = ({
         title="Elemento 3D Claude AI Ufficiale"
       >
         <img
-          src="/assets/aistudio/claude-3d-logo-free-png_8dd66c32.webp"
+          src={`${import.meta.env.BASE_URL}assets/aistudio/claude-3d-logo-free-png_8dd66c32.webp`}
           alt="Claude AI 3D Spherical Emblem"
           className="w-full h-full object-contain filter drop-shadow-[0_20px_35px_rgba(217,119,87,0.3)] transition-all duration-500 group-hover:drop-shadow-[0_25px_45px_rgba(217,119,87,0.45)]"
           draggable={false}
@@ -72,8 +72,8 @@ export const Claude3DElement: React.FC<Claude3DElementProps> = ({
         />
       </div>
 
-
-
     </div>
+  );
+};
   );
 };
