@@ -75,5 +75,3 @@ export const Claude3DElement: React.FC<Claude3DElementProps> = ({
     </div>
   );
 };
-  );
-};
